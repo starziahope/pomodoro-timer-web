@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro Setting</title>
+  <link rel="stylesheet" href="setting.css" />
+</head>
+<body>
+  <main class="setting-card">
+    <h3>Setting</h3>
+
+    <input type="number" id="timer-minutes" name="timer-minutes" oninput="updateConfirmButtonState()" />
+
+    <button class="btn-confirm" type="button" onclick="saveSetting()">설정 완료</button>
+  </main>
+
+  <script src="setting.js"></script>
+</body>
+</html>

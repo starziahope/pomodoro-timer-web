@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Pretendard", -apple-system, sans-serif;
+  background: linear-gradient(135deg, #ff6b6b, #f06595);
+}
+
+.setting-card {
+  width: 360px;
+  padding: 48px 32px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #f06595;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+#timer-minutes {
+  width: 100%;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 12px;
+  background: #f1f3f5;
+  color: #212529;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#timer-minutes:focus {
+  outline: 2px solid #f06595;
+}
+
+.btn-confirm {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 12px;
+  background: #f06595;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-confirm:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-confirm:active {
+  transform: translateY(0);
+}
